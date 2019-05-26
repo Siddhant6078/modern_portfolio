@@ -17,6 +17,7 @@
     main {
         align-items: center;
         text-align: center;
+        padding: 1rem;
     }
 
     .lg-heading {
@@ -64,6 +65,14 @@
             'job3';
 
         grid-template-columns: 1fr;
+
+        .bio {
+            text-align: justify;
+
+            .text-secondary {
+                text-align: center;
+            }
+        }
     }
 
     .projects {
