@@ -166,7 +166,8 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid;
+    width: 250px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -270,7 +271,9 @@ main {
     .menu-branding .portrait {
       background: url("../img/portrait_small.jpg");
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background-size: 150px 150px;
+      background-repeat: no-repeat; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
@@ -285,4 +288,5 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem;
+    padding: 1rem 2rem; } }

@@ -50,6 +50,8 @@
             background: url('../img/portrait_small.jpg');
             width: 150px;
             height: 150px;
+            background-size: 150px 150px;
+            background-repeat: no-repeat;
         }
     }
 
@@ -87,6 +89,7 @@
     .boxes {
         div {
             font-size: 1.2rem;
+            padding: 1rem 2rem;
         }
     }
 }
