@@ -213,6 +213,18 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+.skills {
+  text-align: justify; }
+  .skills span {
+    color: #eece1a; }
+  .skills .progress {
+    height: 2vh;
+    transition: width 2s;
+    background: white;
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 0%; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -248,7 +260,8 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 1rem; }
   .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
@@ -277,6 +290,10 @@ main {
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
+    .about-info .bio {
+      text-align: justify; }
+      .about-info .bio .text-secondary {
+        text-align: center; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
