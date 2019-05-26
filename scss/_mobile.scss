@@ -72,6 +72,10 @@
             .text-secondary {
                 text-align: center;
             }
+
+            p {
+                font-size: 1.2rem;
+            }
         }
     }
 
@@ -92,6 +96,16 @@
 
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    .nav-item {
+        .nav-link {
+            padding: 0.5rem 0;
+        }
+    }
+
+    .sm-heading {
+        font-size: 1rem;
     }
 
     // Contact Page
